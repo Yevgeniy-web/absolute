@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+}
+// Desktop
+@media only screen and (min-width: 1025px) and (max-width: 1920px) {
+    
+.container_header {
+    height: 120px;
+}
+.button-nav {
+    background-color: aquamarine;
+}
+.search {
+    width: 80px;
+}
+.menu {
+    background-color: #f4f5f7;
+}
+// .navbar-nav {
+//     height: 60px;
+//     .nav-link{
+//         color: black;
+//         font-family:'Roboto', sans-serif;
+//         font-weight: 900;
+//         font-size: 14px;
+//         padding: 23px 40px !important;
+//         margin-left: 20px;
+//         text-decoration: none;
+//         text-transform: uppercase;
+//         white-space: nowrap;
+//         &:hover {
+//             background-color: #eaecf0;
+//             color:#0049b0;
+                   
+//         }
+//     }
+// }
+
+
+
+.navigation {
+    height: 60px;
+    text-align: center;
+        a{
+            color: black;
+            font-family:'Roboto', sans-serif;
+            font-weight: 900;
+            font-size: 14px;
+            padding: 21px 40px;
+            text-decoration: none;
+            text-transform: uppercase;
+            white-space: nowrap;
+            &:hover {
+                background-color: #eaecf0;
+                color:#0049b0;
+                       
+            }
+        }
+}
+
+.main-container {
+    margin-top: 100px;
+    h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 36px;
+    }
+    .buttons {
+        flex-wrap: wrap;
+        margin-top: 45px;
+        .button_1, .button_2, .button_3, .button_4, .button_5, .button_6 {
+            font-size: 14px;
+            margin-top: 25px;
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: 0.1em;
+            margin-left: 20px;
+            padding: 16px 20px 16px 20px;
+            text-transform: uppercase;   
+        }
+        .button_5{
+            background-color: #f49a9e;
+            &:hover{
+                background-color: #d3797d;
+            }
+        }
+    }
+}
+
+.radio_check {
+margin-top: 50px;
+}
+
+}
+
+// Tablet
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    body{
+        background-color: red;
+    }
+}
+
+// Mobile
+@media only screen and (min-width:320px) and (max-width: 768px){
+    body{
+        background-color: blue;
+    }
+}

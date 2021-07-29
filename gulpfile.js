@@ -21,7 +21,7 @@ global.path = {
     },
     src: {
         styles: './src/styles/*.less',
-        images: './src/images/*.jpg',
+        images: './src/images/*.{jpg,png,gif,webp,svg}',
         html: './src/*.html',
     }
 };
